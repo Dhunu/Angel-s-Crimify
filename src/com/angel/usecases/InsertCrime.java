@@ -1,15 +1,15 @@
 package com.angel.usecases;
 
-import java.sql.Date;
 import java.util.Scanner;
 
-import com.angel.CrimeListDao;
-import com.angel.CrimeListDaoImpl;
+import com.angel.dao.CrimeListDao;
+import com.angel.dao.CrimeListDaoImpl;
+import com.angel.exceptions.CrimeListExecption;
 import com.angel.model.CrimeList;
 
 public class InsertCrime {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws CrimeListExecption {
 		
 		Scanner sc = new Scanner(System.in);
 		

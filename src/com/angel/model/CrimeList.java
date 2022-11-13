@@ -1,7 +1,5 @@
 package com.angel.model;
 
-import java.sql.Date;
-
 public class CrimeList {
 
 	private int date;
