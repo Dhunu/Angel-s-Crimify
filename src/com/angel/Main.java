@@ -1,4 +1,4 @@
-package com.angel.main;
+package com.angel;
 
 import java.util.Scanner;
 
