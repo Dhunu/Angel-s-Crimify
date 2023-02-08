@@ -1,0 +1,12 @@
+create table crimeList(
+firId int primary key,
+date datetime,
+place varchar(12),
+victim varchar(20),
+description varchar(25),
+detailDesc varchar(255),
+suspect varchar(20)
+);
+
+create table criminalList(
+criminalID int primary key,
