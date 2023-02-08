@@ -1,4 +1,4 @@
-package com.angel;
+package com.angel.main;
 
 import java.util.Scanner;
 
@@ -21,12 +21,12 @@ public class Main {
 		
 		switch (choice) {
 		case 1:
-			InsertCrime insertCrime = new InsertCrime();
-			insertCrime.main(args);
+			new InsertCrime();
+			InsertCrime.main(args);
 			break;
 		case 2:
-			InsertCriminal insertCriminal =  new InsertCriminal();
-			insertCriminal.main(args);
+			new InsertCriminal();
+			InsertCriminal.main(args);
 			break;
 			
 		case 3:
