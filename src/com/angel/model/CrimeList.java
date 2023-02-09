@@ -1,8 +1,10 @@
 package com.angel.model;
 
+import java.sql.Date;
+
 public class CrimeList {
 
-	private int date;
+	private java.util.Date date;
 	private String place;
 	private String description;
 	private String victims;
@@ -14,10 +16,10 @@ public class CrimeList {
 		// TODO Auto-generated constructor stub
 	}
 
-	public CrimeList(int date, String place, String description, String victims, String detailDesc, String mainSuspect,
+	public CrimeList(java.util.Date d, String place, String description, String victims, String detailDesc, String mainSuspect,
 			int firID) {
 		super();
-		this.date = date;
+		this.date = d;
 		this.place = place;
 		this.description = description;
 		this.victims = victims;
@@ -34,11 +36,11 @@ public class CrimeList {
 				+ ", detailDesc=" + detailDesc + ", mainSuspect=" + mainSuspect + ", firID=" + firID + "]";
 	}
 
-	public int getDate() {
+	public java.util.Date getDate() {
 		return date;
 	}
 
-	public void setDate(int date) {
+	public void setDate(Date date) {
 		this.date = date;
 	}
 

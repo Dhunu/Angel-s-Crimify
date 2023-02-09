@@ -9,4 +9,12 @@ suspect varchar(20)
 );
 
 create table criminalList(
-criminalID int primary key,
+criminalID int primary key auto-increment,
+name varchar(20),
+age int,
+gender varchar(5),
+address varchar(100),
+identifyingMark varchar(255),
+areaOfFirstArrest varchar(20),
+attachedCrime varchar(20)
+);
